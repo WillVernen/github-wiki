@@ -1,22 +1,25 @@
 # GitHub Wiki
 
-Aplicação web desenvolvida em React para buscar repositórios do GitHub por `proprietário/repositório`, exibir informações do projeto e salvá-las localmente na interface da aplicação.
+<div align="center">
+  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="80" />
+</div>
 
-## Autor
+Aplicação React para pesquisar repositórios no GitHub, visualizar informações importantes do projeto e salvá-los na interface para consulta rápida.
+
+## ✨ Funcionalidades
+
+- Busca por repositórios no formato `proprietário/repositório`
+- Validação de entrada antes da consulta
+- Listagem dinâmica dos repositórios pesquisados
+- Remoção individual de itens da lista
+- Interface responsiva com componentes estilizados
+- Consumo da API pública do GitHub
+
+## 🧑‍💻 Autor
 
 - Will Vernen
 
-## Descrição
-
-O projeto permite:
-
-- buscar um repositório no GitHub
-- validar o formato `proprietário/repositório`
-- exibir os dados retornados pela API do GitHub
-- adicionar repositórios à lista da aplicação
-- remover itens da lista quando desejar
-
-## Tecnologias
+## 🛠️ Stack utilizada
 
 - React
 - JavaScript
@@ -24,17 +27,33 @@ O projeto permite:
 - Axios
 - GitHub API
 
-## Pré-requisitos
+## 🚀 Demo de teste
 
-Antes de iniciar, certifique-se de ter instalado:
+Acesse a versão de demonstração:
+
+- [https://willvernen.github.io/github-wiki/](https://willvernen.github.io/github-wiki/)
+
+## ▶️ Como executar localmente
+
+### Pré-requisitos
 
 - Node.js
 - npm
 
-## Como rodar
+### Passos
 
-1. Clone o projeto
-2. Acesse a pasta do projeto
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/WillVernen/github-wiki.git
+```
+
+2. Entre na pasta do projeto:
+
+```bash
+cd github-wiki
+```
+
 3. Instale as dependências:
 
 ```bash
@@ -47,38 +66,39 @@ npm install
 npm start
 ```
 
-A aplicação será aberta em:
+5. Acesse no navegador:
 
 ```text
 http://localhost:3000
 ```
 
-## Scripts disponíveis
+## 📜 Scripts disponíveis
 
 - `npm start` — inicia o ambiente de desenvolvimento
 - `npm test` — executa os testes
-- `npm run build` — gera a versão de produção
+- `npm run build` — gera a build de produção
+- `npm run deploy` — publica a aplicação no GitHub Pages
 
-## Estrutura do projeto
+## 🧱 Estrutura do projeto
 
 ```text
 github-wiki/
 ├── public/
 ├── src/
-├── package.json
-├── README.md
 ├── LICENSE
+├── README.md
+├── package.json
 └── .gitignore
 ```
 
-## Licença
+## 📄 Licença
 
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## Repositório
+## 🔗 Repositório
 
 - GitHub: https://github.com/WillVernen/github-wiki
 
-## Status
+## 📌 Status
 
-Projeto em desenvolvimento com foco em consumir a API pública do GitHub e aplicar conceitos de React e componentização.
+Projeto em desenvolvimento com foco em consumo de API pública do GitHub e prática de React com componentização.
